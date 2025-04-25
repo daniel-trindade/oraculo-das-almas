@@ -1,0 +1,104 @@
+[
+  {
+    "name": "LuLu",
+    "race": "Elfo",
+    "class": "Suporte",
+    "atribute": "Inteligência",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Desempenho Vitorioso",
+        "description": "Aumenta a Energia de todos os Aliados em 50, alem de aplicar um buff neles que aumenta o ATQ em 20% por dois turnos.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Flecha Mágica",
+        "description": "O ataque normal causa 103% do ATQ em dano a todos os inimigos da fileira da frente, alem de curar o aliado com o HP mais baixo em 50% do dano causado.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Fúria Interior",
+        "description": "Sempre que um aliado é abatido, aumenta a energia de todos os aliados em 40. (5 vezes por batalha)",
+        "type": "Passiva"
+      },
+      {
+        "name": "Luz Reconfortante",
+        "description": "No inicio da rodada 2, concede um escudo ao aliado com maior ATQ. O escudo equivale a 160% do seu ATQ e dura 3 turnos",
+        "type": "Passiva"
+      },
+      {
+        "name": "Tocador de Harpa",
+        "description": "Ao ser abatida, aumenta a energia de todos os aliados em 60, alem de aplicar um biff neles que aumenta o ATQ em 15% por 2 turnos. (Uma vez por batalha)",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "name": "Sander",
+    "race": "Elfo",
+    "class": "Dano",
+    "atribute": "Agilidade",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Rompante Tempestuosa",
+        "description": "Causa 235% do ATQ em dano a um inimigo. Adicionalmente, por 2 turnos, reduz a velocidade do inimigo em 14 e aumenta a agilidade do aliado adjacente em 14.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Esquarão de Defesa Florestal",
+        "description": "O ATQ do ataque normal aumenta em 35%. No final de cada rodada, você remove um debuff de si próprio e de todos aliados adjacentes a você.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Cor Protetora",
+        "description": "Logo antes de ser abatido, você sobrevive e se torna etéreo. A transformação etéria dura 2 turnos e você ganha 100 de energia. (Uma vez por batalha) **Durante a transformação etéria você não pode ser alvejado.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Determinação Intrépida",
+        "description": "Ao remover um debuff, ganha 20 de energia para cada aliado que teve um debuff removido. Ao usar uma habilidade ativa, consome toda a energia para causar dano adicional.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Esquadrão de defesa Florestal",
+        "description": "Perfuração +45%. Causa dano adicional equivalente a 80% da quantidade ignorada pela perfuração.",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "name": "Aolmond",
+    "race": "Elfo",
+    "class": "Suporte",
+    "atribute": "Inteligencia",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Coruja Lunar",
+        "description": "Cura a si próprio e os aliados adjacentes em 75% do seu ATQ, além de aplicar um buff HoT, curando em 60% do seu ATQ por 3 turnos.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Liberação Espiritual",
+        "description": "Ganha 100 de energia no inicio da batalha.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Coração Acalentado",
+        "description": "No dinal das rodadas impares, remove 2 debuffs de si e dos aliados adjacentes. Aplica um buff que aumenta a cura recebida em 20% por 1 turno.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Toque Inspirador",
+        "description": "No inicio de cada 2 rodadas, aplica um buff de HoT no aliado com o HP mais baixo, curando-o em 40% do seu ATQ por 2 turnos.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Natureza Amplificada",
+        "description": "Sempre que um aliado usa uma abilidade ativa, o valor da cura de Aolmond aumenta em 4,5%. (no maximo 15 acumulações)",
+        "type": "Passiva"
+      }
+    ]
+  }
+]
