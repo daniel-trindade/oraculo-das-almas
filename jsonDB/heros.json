@@ -70,7 +70,7 @@
   {
     "name": "Aolmond",
     "race": "Elfo",
-    "class": "Suporte",
+    "class": "Cura",
     "atribute": "Inteligencia",
     "rarity": "Épico",
     "skills": [
@@ -100,5 +100,142 @@
         "type": "Passiva"
       }
     ]
+  },
+  {
+    "name": "Fiona",
+    "race": "Elfo",
+    "class": "Cura",
+    "atribute": "Inteligencia",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Pólen Pacífico",
+        "description": "Cura o aliado com o HP mais baixo e aplica um buff de cheiro hipnótico por dois turnos. **Inimigos que atacarem aliados sob o efeito de cheio hipnótico terão 80% de chance de dormir por 2 turnos.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Ondas de Primavera",
+        "description": "Perfuração +10%, Precisão +20%. Cura aliado com o HP mais baixo em 80%do dano causado com seu ataque normal.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Beleza Floral",
+        "description": "A habilidade ativa cura todos os aliados adicionais adjacentes ao alvo. O valor da cura adicional corresponde a 28%do valor da cura original.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Cultivar",
+        "description": "Atéa 5ª rodada, no inicio de cada rodada, aplica um buff aos aliados com HP abaixo de 40% aumentando a cura recebida por eles em 20% por 1 turno.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Rainha das Fadas das Flores",
+        "description": "A chance de um buff de Cheiro Hipnótico ocorrer aumena em 10%. No inicio de cada 3 rodadas, aplica um buff de Cheiro Hipnótico em um aliado aleatório da fileira da frente por 2 turnos. Também ganha 40 de energia sempre que um aliado for abatido",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "name": "Abala",
+    "race": "Elfo",
+    "class": "Tanquer",
+    "atribute": "Força",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Golpe Gigante",
+        "description": "Causa 190% do ATQ em dano ao inimigo com o maior ATQ, além de aplicar um debuff de provocação por 2 turnos.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Benção da Árvore do Mundo",
+        "description": "A Paratir da rodada 2, no inicio de cada 2 rodadas, você concede um escudo ao aliado com o HP mais baixo. O escudo é equivalente a 130% de seu ATQ e dura 2 turnos.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Raizes Constritoras",
+        "description": "Reduz o dano recebido de inimigos provocados em 55%. Ganha 50 de energia no inicio da batalha.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Pele Espessa",
+        "description": "Resistencia Física +10%, Perfuração +10%. No inicio de cada rodada aumenta a DEF em 8% (no maximo 5 acumulações).",
+        "type": "Passiva"
+      },
+      {
+        "name": "Mistério Ancestral",
+        "description": "Ao atacar, se cura em 40% do dano causado. Esse efeito aumenta em 5% a cada rodada (max. de 75%).",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "name": "Tania",
+    "race": "Elfo",
+    "class": "Dano",
+    "atribute": "Agilidade",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Flecha Espinhosa",
+        "description": "Causa 180% do ATQ em dano a todos os inimigos da fileira da frente.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Disparo Protetor",
+        "description": "Perfuração +20%, Precisão +20%. O ATQ do ataque normal aumenta em 35%. O ataque normal também aplica o debuff de enfraquecimento a criticos ao inimigo aumentando a chance de sofrer um acerto critico em 20% por 2 turnos.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Especialização de Longo alcance",
+        "description": "Quanto mais longe estiver o inimigo, maior o aumento do ATQ (max. de 21%).",
+        "type": "Passiva"
+      },
+      {
+        "name": "Proteção da Natureza",
+        "description": "HP +12%. No inicio de cada 2 rodadas, recebe um buff que aumenta a taxa de critico em 30% por 2 turnos.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Poder Absoluto",
+        "description": "Taxa de Crítico +20%. Aumenta o dano crítico em 20% sempre que um ataque resultar em acerto crítico, (Max. de 3 cargas, Se nengum acero critico ocorrer, o efeito é reinicia).",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "name": "Elara",
+    "race": "Elfo",
+    "class": "Suporte",
+    "atribute": "Inteligencia",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Emblema do Sol",
+        "description": "Causa dano (130% do ATQ) a 1 inimigo com ATQ auto e a todos inimigos adjaentes, alem de aplicar um debuff de ofuscação aos alvos atingidos por 2 tunos. **A precisão dos inimigos sob o debuff de ofuscação diminuirá em 10%. Quando atacarem, se a precisão for menor que a taxa de esqueva do alvo o ataque irá errar e a esquiva acontecerá",
+        "type": "Ativa"
+      },
+      {
+        "name": "Esfera de Luz",
+        "description": "Ataques normais causam dano (130% do ATQ) a um inimigo aleatório, aplicando um debuf de ofuscação por 1 turno.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Torrente",
+        "description": "AUmenta o ATQ em 5% sempre que você usar um ataque normal. (Max. de 5 cargas).",
+        "type": "Passiva"
+      },
+      {
+        "name": "Sacerdotisa do Sol",
+        "description": "Ao atacar com o HO abaixo de 50%, cura a si próprio em 70% do dano causado.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Juiz",
+        "description": "Quando você aplica um debuff de ofuscação a inimigos que já estiveram sob o efeito da ofuscação a energia deles diminuirá em 65. Você também terá 100% de chance de aplicar choque a eles por 1 turno",
+        "type": "Passiva"
+      }
+    ]
   }
+
 ]
