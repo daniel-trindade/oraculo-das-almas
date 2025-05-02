@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "LuLu",
     "race": "Elfo",
     "class": "Suporte",
@@ -34,6 +35,7 @@
     ]
   },
   {
+    "id": 2,
     "name": "Sander",
     "race": "Elfo",
     "class": "Dano",
@@ -68,6 +70,7 @@
     ]
   },
   {
+    "id": 3,
     "name": "Aolmond",
     "race": "Elfo",
     "class": "Cura",
@@ -102,6 +105,7 @@
     ]
   },
   {
+    "id": 4,
     "name": "Fiona",
     "race": "Elfo",
     "class": "Cura",
@@ -136,6 +140,7 @@
     ]
   },
   {
+    "id": 5,
     "name": "Abala",
     "race": "Elfo",
     "class": "Tanquer",
@@ -170,6 +175,7 @@
     ]
   },
   {
+    "id": 6,
     "name": "Tania",
     "race": "Elfo",
     "class": "Dano",
@@ -204,6 +210,7 @@
     ]
   },
   {
+    "id": 7,
     "name": "Elara",
     "race": "Elfo",
     "class": "Suporte",
@@ -238,6 +245,7 @@
     ]
   },
   {
+    "id": 8,
     "name": "Coco",
     "race": "Elfo",
     "class": "Suporte",
@@ -272,6 +280,7 @@
     ]
   },
   {
+    "id": 9,
     "name": "Babu",
     "race": "Elfo",
     "class": "Tanquer",
@@ -306,6 +315,7 @@
     ]
   },
   {
+    "id": 10,
     "name": "Oneiric",
     "race": "Elfo",
     "class": "Dano",
