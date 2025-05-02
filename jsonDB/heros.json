@@ -222,7 +222,7 @@
       },
       {
         "name": "Torrente",
-        "description": "AUmenta o ATQ em 5% sempre que você usar um ataque normal. (Max. de 5 cargas).",
+        "description": "Aumenta o ATQ em 5% sempre que você usar um ataque normal. (Max. de 5 cargas).",
         "type": "Passiva"
       },
       {
@@ -233,6 +233,108 @@
       {
         "name": "Juiz",
         "description": "Quando você aplica um debuff de ofuscação a inimigos que já estiveram sob o efeito da ofuscação a energia deles diminuirá em 65. Você também terá 100% de chance de aplicar choque a eles por 1 turno",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "name": "Coco",
+    "race": "Elfo",
+    "class": "Suporte",
+    "atribute": "Inteligencia",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Explosão de Espíritos",
+        "description": "Causa dano (140% do ATQ) a 1 inimigo e todos os inimigos adjacentes e remove 1 buff",
+        "type": "Ativa"
+      },
+      {
+        "name": "Ajuda da Fada",
+        "description": "Aumenta o ATQ de ataques normais em 30%. Além disso, ao atacar inimigos com defessa superior a sua, o ataque ATQ aumenta em 16%",
+        "type": "Passiva"
+      },
+      {
+        "name": "Graça da Proteção",
+        "description": "Quando o HP dos aliados que estão na mesma fileira cair abaixo de 60%, aplica o buff graça da proteção por 2 turnos. (3 vezes por batalha) **Aliados com graça da proteção não receberão dano superior a 20%do HP máximo em um unico ataque.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Poder da Vida",
+        "description": "Quando o HP cair abaixo de 50%, aplica HoT em si mesmo e recupera 80% do ATQ por 2 turnos. (Uma vez por batalha)",
+        "type": "Passiva"
+      },
+      {
+        "name": "Sentinela Mágica",
+        "description": "Toda vez que um aliado morrer, reduz 100 de energia e aplica o debuff Silenciamento por 1 turno.",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "name": "Babu",
+    "race": "Elfo",
+    "class": "Tanquer",
+    "atribute": "Força",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Colisão Violenta",
+        "description": "Causa 130% do ATQ em dano a 1 inimigo e atodos os inimigos adjacentes, além de se curar em 100% de todo o dano causado.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Abalo Sísmico",
+        "description": "Aumenta o ATQ do ataque normal em 50%, ao usar o ataque normal, aumenta a DEF e a DEF Crit. em 8% (max. 5 acúmulos).",
+        "type": "Passiva"
+      },
+      {
+        "name": "Insígnia de Proteção",
+        "description": "HP +10%. Cura a si próprio em 115% do dano causado pelo seu ataque normal.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Sacerdotisa do Sol",
+        "description": "Ao atacar com o HO abaixo de 50%, cura a si próprio em 70% do dano causado.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Punição Cruel",
+        "description": "Ao ser atingido por um golpe crítico você atordoa o inimigo atacante por 1 turno e ganha 50 de energia adicional. (5 vezes por batalha)",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "name": "Oneiric",
+    "race": "Elfo",
+    "class": "Dano",
+    "atribute": "Agilidade",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Rugido do Espírito",
+        "description": "Causa 150% do ATQ em dano a todos os inimigos na fileira de trás e reduz a energia deles em 40",
+        "type": "Ativa"
+      },
+      {
+        "name": "Orbe da Escuridão",
+        "description": "Ataques normais causam 120% do ATQ em dano ao inimigo mais próximo na fileira de trás e remove 1 buff.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Rastro de Morte",
+        "description": "Aumenta o ATQ em 25% contra inimifos com menos de 50%do HP, além de curar em 25% do dano causado aos inimigos com menos de 50% do HP.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Saciedade",
+        "description": "Cada vez que o Orbe da Escuridão ou o Banquete do Espírito remove um buff de um inimigo, aumenta o ATQ em 4% para cada buff removido.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Banquete do Espírito",
+        "description": "No inicio de cada rodada, causa 120% do ATQ em dano a todos os inimigos com menos de 50% de HP, além de remover 1 buff.",
         "type": "Passiva"
       }
     ]
