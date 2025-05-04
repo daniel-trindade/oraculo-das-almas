@@ -348,6 +348,76 @@
         "type": "Passiva"
       }
     ]
+  },
+  {
+    "id": 11,
+    "name": "Galan",
+    "race": "Elfo",
+    "class": "Suporte",
+    "atribute": "Inteligencia",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Tornado do Deserto",
+        "description": "Causa 110% do ATQ em dano ao inimigo mais próximo na fileira de trás e a todos a todos os inimigos adjacentes a ele , além de ter 55% de chance de aplicar Tempestade de areia por um turno",
+        "type": "Ativa"
+      },
+      {
+        "name": "Vento Confinante",
+        "description": "HP +15%. O ataque normal causa 120% do ATQ em dano ao inimigo mais próximo na fileira de trás.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Fervor Oculto",
+        "description": "Resistencia Mágica +10% DEF Crit. +10%. NO inicio de cada 2 rodadas, reduz a energia do inimigo mais próximo na fileira de trás em 25.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Relutância",
+        "description": "Aumenta o ATQ em 12% para cada inimigo sob o efeito de Tempestade de Areia.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Guardião da Natureza",
+        "description": "Aumenta a chance da Tempestade de Areia em 10%. Também aumenta o ATQ de uma habilidade ativada em 20%",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Calix",
+    "race": "Humano",
+    "class": "Suporte",
+    "atribute": "Agilidade",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Pancada Perfurante",
+        "description": "Causa 145% do ATQ em dano a 1 inimigo e atodos os inimigos em uma linha reta atrás dele aplicando um debuff que reduz a DEF em 40%por 2 turnos.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Golpe Inevitável",
+        "description": "DEF +10%, DEF Crit. +25%. O ataque normal causa 100% do ATQ em dano a 1 inimigo e aos inimigos adjacentes atrás dele.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Cavaleiro Guardião",
+        "description": "Ao ser atacado, há 100% de chance de aumentar a Energia do aliado com o maior ATQ em 50. (No maximo 1 vez por rodada)",
+        "type": "Passiva"
+      },
+      {
+        "name": "Habilidade de  Sobrevivencia ",
+        "description": "No inicio de cada 4 rodadas, cura 50% do HP max.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Cavaleiro Honroso",
+        "description": "No inicio de cada duas rodadas, aumenta a energia de si próprio e do aliado com o maior ATQ em 40. Sempre que for ativado esse efeito aumenta em 5. (no max. 50)",
+        "type": "Passiva"
+      }
+    ]
   }
 
 ]
