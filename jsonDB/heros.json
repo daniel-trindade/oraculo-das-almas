@@ -418,6 +418,181 @@
         "type": "Passiva"
       }
     ]
+  },
+  {
+    "id": 13,
+    "name": "Odelia",
+    "race": "Humano",
+    "class": "Cura",
+    "atribute": "Inteligência",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Prece da Recuperação",
+        "description": "Cura o aliado com o HP mais baixo  em 300% do ATQ e remove 2 debuffs.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Poder Divino",
+        "description": "Aumenta o ATQ dos ataques normais em 30%. Se o alvo estiver com o HP acima de 70%, atordoa o alvo por 1 turno.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Aura de Feitiçaria",
+        "description": "<span>Resistencia a controle +100%.</span> Quando o HP estiver abaixo de 50%, reduz o dano recebido em 23%",
+        "type": "Passiva"
+      },
+      {
+        "name": "Proteção Divina",
+        "description": "100% do excesso de cura é convertido em um escudo por 2 turnos. Aumenta a cura em 30% no inicio da batalha, esse efeito diminui em 5% a cada rodada.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Caminho de Penitência",
+        "description": "Ao usar uma habilidade ativa, revive um aliado abatido 1x com 65% de HP e 50% de energia. Esse efeito dura apenas até o final da 6 rodada (1 vez por batalha).",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Milia",
+    "race": "Humano",
+    "class": "Dano",
+    "atribute": "Agilidade",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Golpe de Misericórdia",
+        "description": "Causa 230% do ATQ em dano ao inimigo com HP mais baixo. Quando uma habilidade ativa causa um acerto crítico ganha um buff que aumenta o dano crítico em 20% por 3 turnos.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Disparo Preciso",
+        "description": "O ataque normal causa 145% do ATQ de dano ao inimigo com HP mais baixo.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Ferida Mortal",
+        "description": "<span>Taxa de Crítico +11%</span> Ao conseguir um acerto crítico, cura a si próprio em 40% do dano causado.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Santuário de Deus",
+        "description": "Aumenta a taxa de crítico em 10% para cada aliado adjacente vivo.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Força Irrefreável",
+        "description": "Se você abater um inimigo com sua habilidade ativa, ataca mais uma vez, Esse ataque possui 17% de redução de ATQ.",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Richelle",
+    "race": "Humano",
+    "class": "Tanquer",
+    "atribute": "Força",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Proteção Imperial",
+        "description": "Concede um escudo a si próprio e a todos os aliados adjacentes a você. O escudo equivale a 23%do HP max de Richelle por 2 turnos.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Medida Drástica",
+        "description": "Você e todos os aliados adjacentes a você não recebem dano de um único ataque que eceder 35% de seu HP máximo até a 3ª rodada.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Comando Desalmado",
+        "description": "Ao ser atacado ganha 5 de energia adcional. Ao usar um escudo você remove 1 debuff de cada aliado.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Reversão",
+        "description": "Até a rodada 5, no inicio de cada rodada, se o HP estiver abaixo de 40%, cura a si próprio em 25% de seu HP máximo.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Disciplina Militar Rigorosa",
+        "description": "Logo antes de ser abatido, Sobrevive e ganha um escudo de imunidade a dano por 1 turno. Se for abatido após isso, concede um escudo a todos os aliados adjacentes . O escudo equivale a 25% do HP máximo de Richelle e dura 2 turnos. (Uma vez por batalha)",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Rakan",
+    "race": "Humano",
+    "class": "Tanker",
+    "atribute": "Força",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Ataque Avassalador",
+        "description": "Causa 210% do ATQ em dano a 1 inimigo e concede um escudo a si próprio por 2 turnos. O escudo é equivalente a 90% do dano causado.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Guerreiro Mais Forte",
+        "description": "Quando seu HP estiver acima de 50%, aumenta a DEF em 30%. Quando seu HP estiver abaixo de 50%, aumenta o ATQ em 30%.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Espírito Ferido",
+        "description": "<span>Taxa de Esquiva +40%</span> Ao ser abatido, aplica um debuff de silenciamento por 1 turno a todos os inimigos com 40 ou mais de energia (uma vez por batalha).",
+        "type": "Passiva"
+      },
+      {
+        "name": "Raiva Ensandecida",
+        "description": "Ao final de cada 2 rodadas, remove 2 debuffs de si próprio e de todos os aliados na mesma fileira. Ao remover um debuff se cura em 20% do HP máximo (uma vez por rodada).",
+        "type": "Passiva"
+      },
+      {
+        "name": "Ascensão",
+        "description": "Ao ser abatido, reduz a energia de todos os inimigos em 60, alem de aplicar um debuff que aumenta o dano recebido em 28% por 2 turnos (2 vezes por combate).",
+        "type": "Passiva"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Idina",
+    "race": "Humano",
+    "class": "Suporte",
+    "atribute": "Inteligencia",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Barreira de Gelo",
+        "description": "Causa 100% do ATQ em dano a todos os inimigos na fileira de trás, com 65% de chance de congelá-los por 1 turno.",
+        "type": "Ativa"
+      },
+      {
+        "name": "Cristal de Gelo",
+        "description": "<span>HP +12%</span> O ataque normal causa 83% do ATQ em dano a todos os inimigos na fileira de trás.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Rainha do Gelo",
+        "description": "Ao ser atacado cum um golpe mágico, ganha 25 de energia adicional.",
+        "type": "Passiva"
+      },
+      {
+        "name": "Congelado",
+        "description": "<span>Resistencia Magica +10%</span> Se o seu HP ficar abaixo de 30% ou 70%, congela o inimigo atacante por 1 turno (uma vez por batalha).",
+        "type": "Passiva"
+      },
+      {
+        "name": "Aperto Gélido",
+        "description": "No inicio de cada 3 rodadas, congela 1 inimigo aleatório da fileira de trás por 1 turno e reduz a energia dele em 30.",
+        "type": "Passiva"
+      }
+    ]
   }
 
 ]
