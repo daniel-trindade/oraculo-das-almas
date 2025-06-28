@@ -593,6 +593,40 @@
         "type": "Passiva"
       }
     ]
+  },
+    {
+    "id": 18,
+    "name": "Ken",
+    "race": "Humano",
+    "class": "Dano",
+    "atribute": "Agilidade",
+    "rarity": "Épico",
+    "skills": [
+      {
+        "name": "Kunai com Corrente",
+        "description": "Causa 145% do ATQ em dano aos inimigos adjacentes em um ataque em cadeia. Esse ataque pode ser encadeado em até 4 vezes",
+        "type": "Ativa"
+      },
+      {
+        "name": "Lamina do Assassinato",
+        "description": "Todos os ataques (normais e ativos) infligem sangramento no alvo, causando 40% do ATQ em DoT por 2 turnos",
+        "type": "Passiva"
+      },
+      {
+        "name": "Assassinato Silencioso",
+        "description": "<span>Taxa de Esquiva +10%</span> Aumenta o ATQ em 15% para cada aliado sangrando",
+        "type": "Passiva"
+      },
+      {
+        "name": "Sombra Coligante",
+        "description": "Aumenta a taxa de esquiva em 10% no inicio de cada duas rodadas. (No máximo 5 acúmulos)",
+        "type": "Passiva"
+      },
+      {
+        "name": "Golpes Repetidos",
+        "description": "O ataque normal atinge 1 inimigo adicional que estiver sob o eefeito de sangramento. Aumenta o ATQ do ataque normal em 23%",
+        "type": "Passiva"
+      }
+    ]
   }
-
 ]
